@@ -2,3 +2,39 @@
 @import "compass/reset";
 @import "zurui";
 
+* {
+  font: 100%/1.4 "Arial", "Helvetica", sans-serif;
+  color: #333;
+}
+
+body {
+  background-color: #eee;
+}
+
+#wrapper {
+  margin: 0 auto;
+  border-top: 2px solid blue;
+}
+
+header {
+  background-color: #eee;
+  padding: 12px 20px;
+  h1 {
+    font-size: xx-large;
+    @include zurui-ts-fff(1.0);
+  }
+}
+
+#container {
+  @include zurui-line-top(0.1, 1.0);
+  background-color: #fff;
+  padding: 20px;
+  @include zurui-line-bottom(0.1, 1.0);
+}
+
+footer {
+  @include zurui-gradient-top-lighten(#eee, 30%);
+  padding: 20px;
+  text-align: center;
+  font-size: small;
+}
