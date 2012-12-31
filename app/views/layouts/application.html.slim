@@ -7,4 +7,11 @@ html
     = csrf_meta_tags
 
   body
-    = yield
+    #wrapper
+      header
+        h1 RoRMytemplate
+      #container
+        = yield
+      footer
+        p
+          small &copy; 2013 rightgo09
