@@ -25,6 +25,31 @@ header {
   }
 }
 
+#gnavi {
+  background-color: #666;
+  @include clearfix;
+  padding-left: 20px;
+  li {
+    font-size: medium;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #aaa;
+    &:first-child {
+      border-left: 1px solid #aaa;
+    }
+    a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 15px;
+      &:hover {
+        background-color: #999;
+        color: #333;
+      }
+    }
+  }
+}
+
 #container {
   @include zurui-line-top(0.1, 1.0);
   background-color: #fff;
