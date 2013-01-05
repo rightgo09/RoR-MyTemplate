@@ -31,7 +31,7 @@ header {
   @include clearfix;
   padding-left: 20px;
   li {
-    font-size: medium;
+    font-size: small;
     text-align: center;
     float: left;
     border-right: 1px solid #aaa;
@@ -42,7 +42,7 @@ header {
       display: block;
       color: #fff;
       text-decoration: none;
-      padding: 8px 15px;
+      padding: 4px 15px;
       &:hover {
         background-color: #999;
         color: #333;
