@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-RoRMytemplate::Application.config.secret_token = '54b8a9812305c3f700aeb16dc5d9b56576ce0210ee72f8ee8d2ad01512b5c9bb5146853f98b120414cabcb33521529020593d8cb5a0cc3c9288f15e35c76612c'
+RoRMytemplate::Application.config.secret_token = 'aa5887aa51f32e6648a3cb4acf13c6345ecdb2d0387fbb0635d55819a7d30c5644556e80fdb96489544d63c577be476338c10e7305a86c0ce1628950acb45594'
